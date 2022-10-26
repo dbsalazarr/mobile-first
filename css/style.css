@@ -1,0 +1,44 @@
+/* 
+    BUENAS PRÁCTICAS PARA LA CREACIÓN DE REGLAS CSS (SE UTILIZAN PARA MANTENER UN ORDEN EN LA CREACIÓN DE ARCHIVOS)
+    1. Posicionamiento (relative, absolute)
+    2. Modelo Caja (Box Model) [padding, margin, border, width, height]
+    3. Tipografía
+    4. Efectos Visuales
+    5. Otros/Miscelaneos
+*/
+
+:root{
+    /* 
+        COLORES
+    */
+    --bitcoin-orange: #F7931A;
+    --soft-orange: #FFE9D5;
+    --secondary-blue:#FFE9D5;
+    --soft-blue: #FFE9D5;
+    --warm-black: #201E1C;
+    --warm-black-1: #282623;
+    --gray: #BABABA;
+    --off-white: #FAF8F7;
+    --white: #fff;
+    --black: #000;
+
+    /* 
+        FUENTES
+    */
+    --fuente-principal: 'DM Sans', sans-serif; 
+    --fuente-secundaria: 'Inter', sans-serif;
+}
+
+/* RESETEO GENERAL */
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%; /*Now 1rem is equal to 10px*/
+    box-sizing: inherit;
+}
+body{
+    font: normal normal 1.6rem var(--fuente-principal);
+}
