@@ -11,16 +11,16 @@
     /* 
         COLORES
     */
-    --bitcoin-orange: #F7931A;
-    --soft-orange: #FFE9D5;
-    --secondary-blue:#FFE9D5;
-    --soft-blue: #FFE9D5;
-    --warm-black: #201E1C;
-    --warm-black-1: #282623;
-    --gray: #BABABA;
-    --off-white: #FAF8F7;
-    --white: #fff;
-    --black: #000;
+    --color-primary: #F7931A;
+    --color-primary-soft: #FFE9D5;
+    --color-secondary:#1A9AF7;
+    --color-secondary-soft: #FFE9D5;
+    --color-dark-warm: #282623;
+    --color-dark: #201E1C;
+    --color-light-darked: #BABABA;
+    --color-background: #FAF8F7;
+    --color-light: #fff;
+    --color-dark-hard: #000;    
 
     /* 
         FUENTES
