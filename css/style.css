@@ -42,3 +42,31 @@ html{
 body{
     font: normal normal 1.6rem var(--fuente-principal);
 }
+/* 
+    CABECERA
+*/
+header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 32rem;
+    height: 33.4rem;
+    text-align: center;
+}
+header > img{
+    width: 15rem;
+    height: 2.4rem;
+    margin-top: 6rem;
+    align-self: center;
+}
+.header--title-container{
+    width: 90%;
+    min-width: 28.8rem;
+    max-width: 90rem;
+    height: 21.8rem;
+    margin-top: 5rem;
+    align-self: center;
+    /* margin: 5rem auto 0; */
+}
