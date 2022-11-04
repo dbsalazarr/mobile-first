@@ -54,6 +54,7 @@ header{
     min-width: 32rem;
     height: 33.4rem;
     text-align: center;
+    background: linear-gradient(207.8deg, var(--color-dark) 16.69%, var(--color-primary) 100%);
 }
 header > img{
     width: 15rem;
@@ -68,5 +69,34 @@ header > img{
     height: 21.8rem;
     margin-top: 5rem;
     align-self: center;
+    position: relative;
     /* margin: 5rem auto 0; */
+}
+.header--title-container h1{
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    color: var(--color-light);
+}
+.header--title-container p{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: var(--color-light);
+}
+.header--title-container a{
+    line-height: 1.8rem;
+    font-size: 1.4rem;
+    color: var(--color-dark);
+    text-decoration: none;
+    display: inline-block;
+    background: var(--color-light);
+    padding: 2rem 1.5rem;
+    border-radius: 0.3rem;
+    position: absolute;
+    top: calc(100% - 2.8rem);
+    left: calc(50% - 11.2rem);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, .1);
+}
+.header--title-container a span{
+    margin-left: 2rem;
 }
