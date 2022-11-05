@@ -83,20 +83,25 @@ header > img{
     line-height: 1.8rem;
     color: var(--color-light);
 }
-.header--title-container a{
-    line-height: 1.8rem;
+.header--title-container .header__button{
     font-size: 1.4rem;
+    line-height: 1.8rem;
     color: var(--color-dark);
     text-decoration: none;
-    display: inline-block;
     background: var(--color-light);
     padding: 2rem 1.5rem;
     border-radius: 0.3rem;
     position: absolute;
-    top: calc(100% - 2.8rem);
-    left: calc(50% - 11.2rem);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, .1);
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50% );
+    /* top: calc(100% - 2.8rem);
+    left: calc(50% - 11.2rem); */
+    box-shadow: 0px 4px 8px rgba(14, 13, 13, 0.16);
+    font-weight: 700;
+    width: 90%;
+    max-width: 23rem;
 }
-.header--title-container a span{
+.header--title-container .header__button span{
     margin-left: 2rem;
 }
