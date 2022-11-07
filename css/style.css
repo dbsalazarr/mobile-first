@@ -105,3 +105,23 @@ header > img{
 .header--title-container .header__button span{
     margin-left: 2rem;
 }
+/* 
+    SECTINO
+*/
+main{
+    width: 100%;
+    height: auto;
+    background: var(--color-light);
+}
+.main-exchange-container{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 8rem 0 3rem;
+}
+.main-exchange-container__title{
+    width: 90%;
+    min-width: 22.8rem;
+    max-width: 90rem;
+    margin: 0 auto;
+}
