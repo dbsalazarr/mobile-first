@@ -147,11 +147,11 @@ main{
     line-height: 1.6rem;
     color: #757575;
 }
-.main-tables-container table{
-    width: 19.6rem;
+.main-currency-table__container table{
+    width: 20rem;
     margin: 0 auto;
 }
-.main-tables-container table tr td{
+.main-currency-table__container table tr td{
     text-align: left;
     color: #B5B0AC;
     font-size: 1.6rem;
@@ -160,17 +160,28 @@ main{
     padding: 1.5rem 0rem 1.5rem 1rem;
     background: var(--color-light);
 }
-.main-tables-container table tr td + td{
+.main-currency-table__container table tr td + td{
     color: #757575;
     font-size: 1.4rem;
     font-weight: 400;
     line-height: 1.7rem;
 }
-.main-tables-container table span{
-    width: 2rem;
+.main-currency-table__container table span{
+    width: 1.5rem;
     height: 1rem;
     margin-left: 2rem;
     display: inline-block;
 }
-.main-tables-container table span.down{background: url(../assets/icons/down-vector.svg) no-repeat center center / cover;}
-.main-tables-container table span.up{background: url(../assets/icons/up-vector.svg) no-repeat center center / cover;}
+.main-currency-table__container table span.down{background: url(../assets/icons/down-vector.svg) no-repeat center center / cover;}
+.main-currency-table__container table span.up{background: url(../assets/icons/up-vector.svg) no-repeat center center / cover;}
+
+.main-currency-table__title{
+    width: 20rem;
+    margin: 0 auto;
+    text-align: left;
+    color: var(--color-primary);
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.3rem;
+}
