@@ -14,7 +14,7 @@
     --color-primary: #F7931A;
     --color-primary-soft: #FFE9D5;
     --color-secondary:#1A9AF7;
-    --color-secondary-soft: #FFE9D5;
+    --color-secondary-soft: #E7F5ff;
     --color-dark-warm: #282623;
     --color-dark: #201E1C;
     --color-light-darked: #BABABA;
@@ -37,7 +37,7 @@
 }
 html{
     font-size: 62.5%; /*Now 1rem is equal to 10px*/
-    box-sizing: inherit;
+    box-sizing: border-box;
 }
 body{
     font: normal normal 1.6rem var(--fuente-principal);
@@ -147,6 +147,9 @@ main{
     line-height: 1.6rem;
     color: #757575;
 }
+.main-currency-table{
+    margin-bottom: 2rem;
+}
 .main-currency-table__container table{
     width: 20rem;
     margin: 0 auto;
@@ -160,6 +163,10 @@ main{
     padding: 1.5rem 0rem 1.5rem 1rem;
     background: var(--color-light);
 }
+.main-currency-table__container table tr .top-left{ border-radius: 1.5rem 0 0 0;}
+.main-currency-table__container table tr .top-right{border-radius: 0 1.5rem 0 0;}
+.main-currency-table__container table tr .bottom-left{border-radius: 0 0 0 1.5rem;}
+.main-currency-table__container table tr .bottom-right{border-radius: 0 0 1.5rem 0;}
 .main-currency-table__container table tr td + td{
     color: #757575;
     font-size: 1.4rem;
@@ -184,4 +191,19 @@ main{
     font-size: 1.8rem;
     font-weight: 700;
     line-height: 2.3rem;
+}
+.main-currency-table__title.celeste{
+    color: var(--color-secondary);
+}
+.main-currency-table__date{
+    width: 80%;
+    max-width: 20rem;
+    padding: 1.5rem 0.5rem;
+    margin: 1.5rem auto 0;
+    background: var(--color-primary-soft);
+    font-size: 1.45rem;
+    border-radius: 5px;
+}
+.main-currency-table__date.celeste{
+    background: var(--color-secondary-soft);
 }
