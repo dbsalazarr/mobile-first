@@ -207,3 +207,43 @@ main{
 .main-currency-table__date.celeste{
     background: var(--color-secondary-soft);
 }
+/*
+    SECCIÓN CARDS
+*/
+.main-product-detail{
+    position: relative;
+    width: 100%;
+    min-width: 32rem;
+    height: auto;
+    padding: 2rem 1rem;
+    background: var(--color-dark);
+}
+.main-product-detail__logo{
+    position: absolute;
+    top: -1rem;
+    width: 4rem;
+    left: calc(50% - 2rem);
+    height: 2.5rem;
+    background: url(../assets/image/logo-card.svg) no-repeat center center;
+}
+.main-product-detail__cabecera{
+    width: 90%;
+    min-width: 28.8rem;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+.main-product-detail__cabecera h2{
+    margin-bottom: 2rem;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    color: var(--color-light);
+}
+.main-product-detail__cabecera p{
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: #808080;
+}
