@@ -247,3 +247,24 @@ main{
     font-weight: 500;
     color: #808080;
 }
+
+.product-details__card{
+    width: 90%;
+    min-width: 28.8rem;
+    max-width: 40rem;
+    height: 15.2rem;
+    margin: 1.5rem auto;
+    padding: 1.5rem;
+    background: var(--color-dark-warm);
+}
+.product-details__card-title{
+    color: var(--color-light);
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    margin: 1rem 0;
+}
+.product-details__card-description{
+    color: #808080;
+    font-size: 1.4rem;
+}
