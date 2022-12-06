@@ -100,7 +100,7 @@ header > img{
     box-shadow: 0px 4px 8px rgba(14, 13, 13, 0.16);
     font-weight: 700;
     width: 90%;
-    max-width: 23rem;
+    max-width: 24rem;
 }
 .header--title-container .header__button span{
     margin-left: 2rem;
