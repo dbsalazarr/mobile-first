@@ -41,7 +41,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    font: normal normal 1.6rem var(--fuente-principal);
+    font: normal normal 1.6rem var(--fuente-principal), var(--fuente-secundaria);
 }
 /* 
     CABECERA
@@ -294,3 +294,81 @@ main{
 /* 
     SECCIÓN - PLANES A ESCOGER
 */
+.product-plans-container{
+    width: 100%;
+    min-width: 32rem;
+    padding-bottom: 7rem;
+    text-align: center;
+    padding: 6.4rem 0;
+    background: #E5E5E5;
+}
+.product-plans-container__cabecera{
+    width: 90%;
+    min-width: 28.8rem;
+    margin: 0 auto;
+}
+.product-plans-container__cabecera h2{
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    margin-bottom: 3.4rem;
+}
+.product-plans-container__cabecera p{
+    color: #757575;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    margin-bottom: 3.9rem;
+}
+/*
+    SLIDER
+*/
+.product-plans__slider{
+}
+.product-plans__card{
+    position: relative;
+    background: var(--color-light);
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+.product-plans__card{
+    line-height: 1.8rem;
+    padding: 2.4rem 2rem;
+}
+.product-plans__card > span{
+    background: var(--color-primary);
+    color: var(--color-light);
+    padding: .8rem;
+    position: absolute;
+    left: calc(50% - 6.2rem);
+    bottom: calc(100% - 17px);
+    border-radius: 8px;
+}
+.product-plans__card div h3{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.product-plans__card div p.precio{
+    position: relative;
+    font-family: var(--fuente-secundaria);
+    font-size: 5.2rem;
+    margin: 1.2rem 0;
+    line-height: 6rem;
+    font-weight: 700;
+    display: inline-block;
+}
+.product-plans__card div p + p{
+    color: #757575;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+.product-plans__card div p span{
+    position: absolute;
+    left: -10px;
+    bottom: calc(100% - 24px);
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-family: var(--fuente-secundaria);
+}
