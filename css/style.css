@@ -393,3 +393,31 @@ main{
     border: 2px solid var(--color-primary);
     border-radius: 4px;
 }
+/* 
+    FOOTER
+*/
+.pie-pagina{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--color-primary);
+    padding: 4rem 6.5rem;
+}
+.pie-pagina__enlaces ul{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    list-style: none;
+    padding-left: 0;
+    
+}
+.pie-pagina__enlaces u li{
+    padding-bottom: 1rem;
+}
+.pie-pagina__enlaces u li:last-child{
+    padding-bottom: 0;
+}
+.pie-pagina__enlaces ul a{
+    color: var(--color-light);
+    text-decoration: none;
+}
