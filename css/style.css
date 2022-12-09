@@ -321,7 +321,7 @@ main{
     margin-bottom: 3.9rem;
 }
 /*
-    SLIDER
+    CARRUSELL OF PRICES
 */
 .product-plans__slider{
 }
@@ -329,12 +329,13 @@ main{
     position: relative;
     background: var(--color-light);
     width: 70%;
+    min-width: 24rem;
+    max-width: 30rem;
     margin: 0 auto;
     border-radius: 8px;
-}
-.product-plans__card{
     line-height: 1.8rem;
     padding: 2.4rem 2rem;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, .16);
 }
 .product-plans__card > span{
     background: var(--color-primary);
@@ -346,7 +347,7 @@ main{
     border-radius: 8px;
 }
 .product-plans__card div h3{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 500;
 }
 .product-plans__card div p.precio{
@@ -360,7 +361,7 @@ main{
 }
 .product-plans__card div p + p{
     color: #757575;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     line-height: 1.5rem;
     font-weight: 500;
 }
@@ -371,4 +372,16 @@ main{
     font-size: 1.2rem;
     line-height: 1.5rem;
     font-family: var(--fuente-secundaria);
+}
+.product-plans__card div button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    min-width: 15rem;
+    margin: 0 auto;
+    padding: 0.8rem;
+    background: #E5E5E5;
+    border: 2px solid var(--color-primary);
+    border-radius: 4px;
 }
