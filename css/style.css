@@ -324,9 +324,17 @@ main{
     CARRUSELL OF PRICES
 */
 .product-plans__slider{
+    display: flex;
+    height: 35rem;
+    align-items: center;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    gap: 1rem;
 }
 .product-plans__card{
     position: relative;
+    scroll-snap-align: center;
     background: var(--color-light);
     width: 70%;
     min-width: 24rem;
