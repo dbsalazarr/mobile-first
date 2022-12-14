@@ -1,0 +1,28 @@
+/* 
+    TABLES OF PRICES
+*/
+.container-tables{
+    display: flex;
+    justify-content: space-between;
+    width: 93rem;
+    margin: 0 auto;
+}
+/*
+    CARDS
+*/
+.product-cards-container{
+    width: 93rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* 
+    TABLE OF PRICES
+*/
+.product-plans__slider{
+    justify-content: center;
+}
+.product-plans__card{
+    margin: 0;
+}
