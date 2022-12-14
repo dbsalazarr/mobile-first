@@ -10,6 +10,8 @@
     <!-- Estilos generales -->
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css">
+    <!--  Agregando el breakpoint y definiendo el breakpoint en el cual tal archivo css se descargará -->
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 930px)">
 </head>
 <body>
     <header>
@@ -28,72 +30,78 @@
             <div class="main-exchange-container__img">
                 <!-- Imagen de Background de Bitcoin -->
             </div>
-            <div class="main-exchange-container__title">
-                <h2>Visibilizamos todas las tasas de cambio.</h2>
-                <p>Traemos información en tiempo real de las casas de cambio y las monedas más importantes del mundo.</p>
-            </div>
-            <section class="main-table-container">
-
-                <div class="main-currency-table">
-                    <h3 class="main-currency-table__title">Monedas</h3>
-                    <div class="main-currency-table__container">
-                        <table>
-                            <tr>
-                                <td class="top-left">Bitcoin</td>
-                                <td class="top-right">$ 1.96 <span class="down"></span></td>
-                            </tr>
-                            <tr>
-                                <td>Ethereum</td>
-                                <td>$ 0.07<span class="up"></span></td>
-                            </tr>
-                            <tr>
-                                <td>Ripple</td>
-                                <td>$ 2.15<span class="down"></span></td>
-                            </tr>
-                            <tr>
-                                <td class="bottom-left">Stellar</td>
-                                <td class="bottom-right">$ 4.96<span class="down"></span></td>
-                            </tr>
-                        </table>
+            <div class="container-tables">
+                <div>
+                    <div class="main-exchange-container__title">
+                        <h2>Visibilizamos todas las tasas de cambio.</h2>
+                        <p>Traemos información en tiempo real de las casas de cambio y las monedas más importantes del mundo.</p>
                     </div>
-                    <div class="main-currency-table__date">
-                        <b>Actualizado:</b> 19 Julio 23:45
-                    </div>
+                    <section class="main-table-container">
+                        <div class="main-currency-table">
+                            <h3 class="main-currency-table__title">Monedas</h3>
+                            <div class="main-currency-table__container">
+                                <table>
+                                    <tr>
+                                        <td class="top-left">Bitcoin</td>
+                                        <td class="top-right">$ 1.96 <span class="down"></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ethereum</td>
+                                        <td>$ 0.07<span class="up"></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ripple</td>
+                                        <td>$ 2.15<span class="down"></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bottom-left">Stellar</td>
+                                        <td class="bottom-right">$ 4.96<span class="down"></span></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="main-currency-table__date">
+                                <b>Actualizado:</b> 19 Julio 23:45
+                            </div>
+                        </div>
+                    </section>
+                    
                 </div>
-            </section>
-            <!-- SEGUNDA TABLA -->
-            <div class="main-exchange-container__title">
-                <h2>Visibilizamos el mejor cambio para ti.</h2>
-                <p>La información más relevante del mundo traida a ti desde las casas d cambio más famosas del mundo, confia en tu casa de cambio, confia en Batatabit</p>
-            </div>
-            <section class="main-table-container">
-                <div class="main-currency-table">
-                    <h3 class="main-currency-table__title celeste">Comisiones</h3>
-                    <div class="main-currency-table__container">
-                        <table>
-                            <tr>
-                                <td class="top-left">Bitcoin</td>
-                                <td class="top-right">$ 1.96 </td>
-                            </tr>
-                            <tr>
-                                <td>Ethereum</td>
-                                <td>$ 0.07</td>
-                            </tr>
-                            <tr>
-                                <td>Ripple</td>
-                                <td>$ 2.15</td>
-                            </tr>
-                            <tr>
-                                <td class="bottom-left">Stellar</td>
-                                <td class="bottom-right">$ 4.96</td>
-                            </tr>
-                        </table>
+                <!-- SEGUNDA TABLA -->
+                <div>
+                    <div class="main-exchange-container__title">
+                        <h2>Visibilizamos el mejor cambio para ti.</h2>
+                        <p>La información más relevante del mundo traida a ti desde las casas d cambio más famosas del mundo, confia en tu casa de cambio, confia en Batatabit</p>
                     </div>
-                    <div class="main-currency-table__date celeste">
-                        <b>Actualizado:</b> 19 Julio 23:45
-                    </div>
+                    <section class="main-table-container">
+                        <div class="main-currency-table">
+                            <h3 class="main-currency-table__title celeste">Comisiones</h3>
+                            <div class="main-currency-table__container">
+                                <table>
+                                    <tr>
+                                        <td class="top-left">Bitcoin</td>
+                                        <td class="top-right">$ 1.96 </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ethereum</td>
+                                        <td>$ 0.07</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ripple</td>
+                                        <td>$ 2.15</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bottom-left">Stellar</td>
+                                        <td class="bottom-right">$ 4.96</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="main-currency-table__date celeste">
+                                <b>Actualizado:</b> 19 Julio 23:45
+                            </div>
+                        </div>
+                    </section>
                 </div>
-            </section>
+            </div>
 
         </section>
 
