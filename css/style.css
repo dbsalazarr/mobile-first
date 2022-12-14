@@ -394,7 +394,7 @@ main{
     border-radius: 4px;
 }
 /* 
-    FOOTER
+    FOOTER - PIE DE PAGINA
 */
 .pie-pagina{
     display: flex;
@@ -409,12 +409,11 @@ main{
     line-height: 1.8rem;
     list-style: none;
     padding-left: 0;
-    
 }
-.pie-pagina__enlaces u li{
+.pie-pagina__enlaces ul li{
     padding-bottom: 1rem;
 }
-.pie-pagina__enlaces u li:last-child{
+.pie-pagina__enlaces ul li:last-child{
     padding-bottom: 0;
 }
 .pie-pagina__enlaces ul a{
